@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goodflow</title>
-    <meta name="application-name" content="Goodflow">
-    <meta name="description" content="Goodflow - Combat brain rot with science-backed brain training games. Reverse cognitive decline from excessive screen time.">
+    <title>Time</title>
+    <meta name="application-name" content="Time">
+    <meta name="description" content="Time - Science-backed training that rebuilds your attention span, memory, and mental clarity.">
     <meta name="google-site-verification" content="rP_SgEyboEWmK1_RxYeERZV3Ls6I6sItfAsh9Gi81v8" />
-    <meta property="og:title" content="Goodflow">
-    <meta property="og:site_name" content="Goodflow">
+    <meta property="og:title" content="Time">
+    <meta property="og:site_name" content="Time">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Goodflow",
+        "name": "Time",
         "applicationCategory": "HealthApplication",
         "operatingSystem": "iOS",
-        "description": "Combat brain rot with science-backed brain training games. Reverse cognitive decline from excessive screen time.",
+        "description": "Science-backed training that rebuilds your attention span, memory, and mental clarity.",
         "author": {
             "@type": "Organization",
-            "name": "Goodflow"
+            "name": "Time"
         }
     }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -34,9 +34,9 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #0a0f0d 0%, #0d1a15 50%, #12251e 100%);
-            color: #ffffff;
+            font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f7f7f4;
+            color: #101010;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -51,54 +51,40 @@
             text-align: center;
         }
 
-        .logo {
-            width: 120px;
-            height: 120px;
-            background: linear-gradient(135deg, #588b76 0%, #3d6454 100%);
-            border-radius: 28px;
-            margin: 0 auto 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 20px 60px rgba(88, 139, 118, 0.3);
-        }
-
-        .logo svg {
-            width: 60px;
-            height: 60px;
-            fill: white;
-        }
-
         h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 4.5rem;
+            font-weight: 400;
+            letter-spacing: 0.18em;
+            /* Letterspacing pads the right edge; pull it back to stay optically centered. */
+            text-indent: 0.18em;
+            line-height: 1.1;
+            margin-bottom: 1rem;
         }
 
         .tagline {
             font-size: 1.25rem;
-            color: #a0a0a0;
+            color: #101010;
             margin-bottom: 2rem;
             font-weight: 500;
         }
 
         .description {
             font-size: 1.1rem;
-            color: #d0d0d0;
+            color: #687076;
             margin-bottom: 3rem;
             line-height: 1.8;
         }
 
         .highlight {
-            color: #6ba88e;
+            color: #101010;
             font-weight: 600;
         }
 
         .app-store-btn {
             display: inline-block;
-            background: #588b76;
-            color: #ffffff;
+            background: #101010;
+            color: #f7f7f4;
             padding: 1rem 2rem;
             border-radius: 12px;
             text-decoration: none;
@@ -110,15 +96,14 @@
 
         .app-store-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 40px rgba(88, 139, 118, 0.4);
+            box-shadow: 0 10px 40px rgba(16, 16, 16, 0.2);
         }
 
         .divider {
             width: 60px;
-            height: 2px;
-            background: linear-gradient(90deg, #588b76, #3d6454);
+            height: 1px;
+            background: #d5d5d0;
             margin: 0 auto 2rem;
-            border-radius: 1px;
         }
 
         .links {
@@ -130,23 +115,23 @@
         }
 
         .links a {
-            color: #808080;
+            color: #687076;
             text-decoration: none;
             font-size: 0.9rem;
             transition: color 0.2s;
         }
 
         .links a:hover {
-            color: #ffffff;
+            color: #101010;
         }
 
         .contact {
-            color: #606060;
+            color: #8a9196;
             font-size: 0.85rem;
         }
 
         .contact a {
-            color: #6ba88e;
+            color: #101010;
             text-decoration: none;
         }
 
@@ -159,13 +144,13 @@
         }
 
         .copyright {
-            color: #404040;
+            color: #a8adb1;
             font-size: 0.8rem;
         }
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 2.25rem;
+                font-size: 3rem;
             }
 
             .tagline {
@@ -175,38 +160,21 @@
             .description {
                 font-size: 1rem;
             }
-
-            .logo {
-                width: 100px;
-                height: 100px;
-                border-radius: 24px;
-            }
-
-            .logo svg {
-                width: 50px;
-                height: 50px;
-            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo" role="img" aria-label="Goodflow logo">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z"/>
-                </svg>
-            </div>
-
-            <h1>Goodflow</h1>
-            <p class="tagline">Brain Training App</p>
+            <h1>TIME</h1>
+            <p class="tagline">Think faster. Remember more</p>
         </header>
 
         <main>
             <p class="description">
-            Combat <span class="highlight">brain rot</span> with science-backed brain training games.
-            Reverse cognitive decline from excessive screen time and rebuild your
-            attention span, memory, and mental clarity.
+            Science-backed training that rebuilds your <span class="highlight">attention span</span>,
+            memory, and mental clarity. Watch your focus and mental speed grow stronger
+            with every session.
         </p>
 
         <a href="#" class="app-store-btn">Download on the App Store</a>
@@ -224,7 +192,7 @@
         </main>
 
         <footer>
-            <p class="copyright">&copy; 2025 Goodflow. All rights reserved.</p>
+            <p class="copyright">&copy; 2025 Time. All rights reserved.</p>
         </footer>
     </div>
 </body>

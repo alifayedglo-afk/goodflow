@@ -2,7 +2,7 @@
 
 _Last updated: September 25, 2025_
 
-This Privacy Policy explains how Goodflow ("we," "our," or "us") collects, uses, and protects your information.
+This Privacy Policy explains how Time ("we," "our," or "us") collects, uses, and protects your information.
 
 ## 1. Information We Collect
 - **Account Information:** Email address and authentication details.
@@ -28,7 +28,7 @@ We use reasonable measures to protect your information, but no method of storage
 - You may opt out of marketing communications.
 
 ## 6. Children's Privacy
-Goodflow is not directed to children under 9, and we do not knowingly collect information from them.
+Time is not directed to children under 9, and we do not knowingly collect information from them.
 
 ## 7. Changes to This Policy
 We may update this Privacy Policy from time to time. Changes will be posted in the app.

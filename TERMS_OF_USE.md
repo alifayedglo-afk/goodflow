@@ -2,13 +2,13 @@
 
 _Last updated: September 25, 2025_
 
-Welcome to Goodflow! By using our app, you agree to the following terms:
+Welcome to Time! By using our app, you agree to the following terms:
 
 ## 1. Acceptance of Terms
-By accessing or using Goodflow, you agree to comply with and be bound by these Terms of Use.
+By accessing or using Time, you agree to comply with and be bound by these Terms of Use.
 
 ## 2. Subscriptions
-- Goodflow offers auto-renewable subscriptions.
+- Time offers auto-renewable subscriptions.
 - Payment will be charged to your Apple ID account at confirmation of purchase.
 - Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
 - You can manage or cancel your subscription in your Apple ID account settings after purchase.
@@ -17,7 +17,7 @@ By accessing or using Goodflow, you agree to comply with and be bound by these T
 You agree not to misuse the app, including attempting to interfere with its normal operation or security.
 
 ## 4. Intellectual Property
-All content, trademarks, and other intellectual property within the app are owned by Goodflow and its licensors.
+All content, trademarks, and other intellectual property within the app are owned by Time and its licensors.
 
 ## 5. Termination
 We may suspend or terminate your access to the app if you violate these terms.
